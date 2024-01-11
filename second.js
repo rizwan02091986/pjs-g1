@@ -64,3 +64,29 @@ console.log(!false && !false);
 
 // == it means equal
 // === equal with type check
+
+//increment
+
+let q = 70;
+q+=10;    // q = 70+10 => 80
+console.log(q);
+
+// post increment
+console.log(q+1);  // q = q+1 70 + 1 = 71
+console.log(q); // q = 71
+
+// preincrement
+console.log(++q); // ++q 71+1
+
+//decrement
+
+let x = 70;
+x-=10;    // x = 70-10 => 60
+console.log(x);
+
+// post decrement
+console.log(x-1);  // q = x-1 60 - 1 = 59
+console.log(x); // x = 60
+
+// preincrement
+console.log(--x); // --x 60-1 = 59
