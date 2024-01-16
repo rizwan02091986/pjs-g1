@@ -16,7 +16,7 @@
 //     console.log(`${number} x ${i} = ${number*i}`);
 // }
 
-//white loop
+//while loop
 
 // let myNum = 80;
 // while(myNum<=84){
