@@ -41,24 +41,24 @@
 
 // for in loop
 
-let obj ={
-    name : "Rizwan",
-    age : 38,
-    grade : "A",
-    city : "Karachi"
-}
+// let obj ={
+//     name : "Rizwan",
+//     age : 38,
+//     grade : "A",
+//     city : "Karachi"
+// }
 
-// even and odd
-for(let n in obj){
-    console.log(n , obj[n]);
-}
+// // even and odd
+// for(let n in obj){
+//     console.log(n , obj[n]);
+// }
 
-let num = prompt("Enter the number");
+// let num = prompt("Enter the number");
 
-for(let i=0; i<=num; i++){
-    if(i%2==0){
-        console.log(`${i} is even`);
-    }else{
-        console.log(`${i} is odd`);
-    }
-}
+// for(let i=0; i<=num; i++){
+//     if(i%2==0){
+//         console.log(`${i} is even`);
+//     }else{
+//         console.log(`${i} is odd`);
+//     }
+// }
