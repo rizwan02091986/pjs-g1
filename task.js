@@ -21,7 +21,7 @@ console.log("Total Marks", totalMarks);
 let per = ((total/totalMarks)*100);
 console.log(`Your Percentage ${per}%`);
 
-if(per >=90 && per<=100){
+if(per >=90 && per <=100){
     console.log("Your Grade is A+");
 }else if(per >=80 && per<=90){
     console.log("Your Grade is A");
