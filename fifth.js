@@ -35,3 +35,6 @@ let sweetDish = ["custard", "ice cream", "gulab jaman", "halwa"];
 
 let menu = bbq.concat(seaFood, sweetDish);
 console.log(menu);
+
+// array is muteable
+// string is inmuteable
