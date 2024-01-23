@@ -24,5 +24,24 @@ console.log(exam[0]);
 exam[0].style.textAlign = "center";
 exam[0].style.backgroundColor = "black";
 exam[0].style.color = "white";
+exam[0].style.fontWeight = "bold";
+exam[0].style.fontSize = "20px";
+
+exam[0].classList.add("wow");
+
+let newElem = document.createElement('p');
+
+exam[0].appendChild(newElem);
+
+newElem.innerHTML = "My Name is Rizwan";
+
+let secondelem = document.createElement("h1");
+newElem.appendChild(secondelem);
+
+secondelem.innerHTML = "I am 38 Year Old"
+
+
+
+
 
 
