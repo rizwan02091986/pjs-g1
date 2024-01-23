@@ -40,6 +40,21 @@ newElem.appendChild(secondelem);
 
 secondelem.innerHTML = "I am 38 Year Old"
 
+let newBtn = document.createElement("button");
+exam[0].appendChild(newBtn);
+
+newBtn.innerHTML = "Submit";
+newBtn.style.padding = "20px 24px";
+newBtn.className = "btn btn-primary"
+newBtn.style.fontSize = "24px";
+
+//events
+newBtn.addEventListener('click' , toggleBtn);
+    function toggleBtn(){
+        console.log("You Click Me");
+        newBtn.innerHTML = "WOW";
+    }
+
 
 
 
