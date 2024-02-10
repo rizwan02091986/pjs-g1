@@ -1,12 +1,12 @@
-//promise
-// setInterval(function(){
-//     document.write("Wow!")
-// },2000)
-
 // //promise
-// setTimeout(function(){
-//     console.log("Wow@@2!");
-// },2000)
+// // setInterval(function(){
+// //     document.write("Wow!")
+// // },2000)
+
+// // //promise
+// // setTimeout(function(){
+// //     console.log("Wow@@2!");
+// // },2000)
 
 // primise 1
 let promiseOne = new Promise(function(resolve, reject){
@@ -65,3 +65,27 @@ promiseFour.then(function(userData){
 .finally(function(){
     console.log("Finally");
 })
+
+
+let promiseFive = new Promise(function (resolve, reject){
+    setTimeout(function(){
+        let error = false;
+        if(!error){
+            resolve({name : "ASTON", password : "123456789"})
+        }else{
+            reject("Error : Something Went Wrong Here!")
+        }
+    },2000)
+})
+
+async function consumedPromiseFive(){
+    try{
+        let res = await promiseFive
+        console.log(res);
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+
+consumedPromiseFive()
