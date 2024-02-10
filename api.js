@@ -89,3 +89,18 @@ async function consumedPromiseFive(){
 }
 
 consumedPromiseFive()
+
+
+async function userData(){
+    try{
+        let data = await fetch('https://jsonplaceholder.typicode.com/users');
+        let myData = await data.json()
+        console.log(JSON.stringify(myData))
+        document.write(JSON.stringify(myData))
+    }
+    catch(error){
+        console.log(error);
+    }
+}
+
+userData()
